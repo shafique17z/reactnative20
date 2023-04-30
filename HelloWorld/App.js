@@ -10,7 +10,7 @@ import {
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.text}>Hello, World!</Text>
+      <Text style={{ fontSize: 30 }}>Hello, World!</Text>
       <StatusBar style='auto' />
     </SafeAreaView>
   )
@@ -21,11 +21,5 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     marginTop: Platform.OS === 'android' ? RNStatusBar.currentHeight : 0,
-  },
-  text: {
-    fontSize: 30,
-    // fontWeight: 'bold',
-    paddingStart: 16,
-    paddingTop: 16,
   },
 })
