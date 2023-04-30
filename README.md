@@ -6,6 +6,6 @@ This is a challenge I'm taking on to develop 20 apps with React Native. The chal
 
 ## App 1: Hello World
 
-A simple Hello World app that uses SafeAreaView and Platform.OS to fix up the content flowing over status bar.
+A simple Hello World app that uses SafeAreaView and Platform.OS APIs to fix up the content flowing over status bar.
 
 ![Hello World Demo](./HelloWorld/helloWorldDemo.jpg)
